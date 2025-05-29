@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"✅ Tests ran successfully!\""
+    "test": "echo \"✅ Tests ran successfully!\"",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
     "url": "https://github.com/olamidey-io/github-action-demo2/issues"
   },
   "homepage": "https://github.com/olamidey-io/github-action-demo2#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0"
+  }
 }
