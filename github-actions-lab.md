@@ -217,6 +217,9 @@ So after several several failed attempts to run lint successfully and later got 
 
 ![alt text](images/Capture42.PNG)
 
+### A Visual Diagram of this CI Pipeline
+![alt text](images/Capture49.PNG)
+
 ## Step 5:  Use Secrets in Your Workflow
 
 I will try to securely store sensitive data (like passwords, tokens, or API keys) and use them inside my workflow without exposing them publicly in my code.
